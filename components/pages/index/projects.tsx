@@ -8,7 +8,7 @@ import {
   useColorMode,
 } from "@chakra-ui/core";
 import Link from "next/link";
-import IProject from "models/project";
+import IProject from "../../../models/project";
 import { IoMdArrowRoundForward } from "react-icons/io";
 
 interface Props {
