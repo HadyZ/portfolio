@@ -28,7 +28,7 @@ const Jumbotron: FC = () => {
       </Box>
       <Box>
         <Text>
-          <Box as="b">Full Stack Software Developer</Box>
+          <Box as="b">Business and Software Developer</Box>
         </Text>
       </Box>
     </Stack>

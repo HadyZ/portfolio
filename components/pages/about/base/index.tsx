@@ -48,21 +48,19 @@ const Page: FC = () => {
     return (
       <Box className="article">
         <Text fontWeight="bold">
-          Computer Science Engineer having interest in web-designing and
-          development with an eye for detail.
+          Computer And Communication Engineer, having more than 3 years in
+          frontend web development, with an eye for detail.
         </Text>
         <Text>
           I'm also a big fan of{" "}
           <Box as="span" fontWeight="bold">
-            React.js
+            Java Script
           </Box>{" "}
           and have{" "}
           <Box as="span" fontWeight="bold">
-            around 5 years
+            around 3 years
           </Box>{" "}
-          experience with it. I have also fiddled with Ruby on Rails and Elixir.
-          I'm eager to learn new frameworks, libraries and languages like Elm,
-          Vue.js and ReasonML. I'm also interested in learning Go and Python.
+          experience with it. I'm eager to learn new frameworks.
         </Text>
         <Text>
           Though I spend most of my time writing code for building User
