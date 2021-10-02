@@ -1,6 +1,6 @@
 import Page from "components/pages/projects/base";
 import { NextPage } from "next";
-import IProject from "models/project";
+import IProject from "../../models/project";
 import projectsData from "public/data/projects.json";
 import Head from "next/head";
 

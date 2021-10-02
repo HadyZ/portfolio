@@ -1,6 +1,6 @@
 import projectsData from "public/data/projects.json";
 import Page from "components/pages/index";
-import IProject from "models/project";
+import IProject from "../models/project";
 import siteConfig from "config/site";
 import { NextPage } from "next";
 import Head from "next/head";
@@ -17,9 +17,7 @@ const IndexPage: NextPage<Props> = ({ projects = [] }) => {
       <Head>
         <title>{`${siteConfig.details.title} - ${siteConfig.details.tagLine}`}</title>
       </Head>
-      <Page
-        projects={projects}
-      />
+      <Page projects={projects} />
     </>
   );
 };

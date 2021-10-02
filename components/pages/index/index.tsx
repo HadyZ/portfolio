@@ -1,9 +1,8 @@
 import { Box, Grid, Stack } from "@chakra-ui/core";
 import LazyLoad from "react-lazyload";
-import IProject from "models/project";
+import IProject from "../../../models/project";
 import dynamic from "next/dynamic";
 import React, { FC } from "react";
-
 
 const Jumbotron = dynamic(import("components/pages/index/jumbotron"));
 
@@ -24,10 +23,7 @@ interface Props {
   projects: IProject[];
 }
 
-const Page: FC<Props> = ({
-  projects = [],
-}) => {
-
+const Page: FC<Props> = ({ projects = [] }) => {
   return (
     <>
       <Box as="section">
@@ -36,9 +32,9 @@ const Page: FC<Props> = ({
       <SocialLinks />
       <Navbar />
       <Box alignItems="center" justifyItems="center">
-        <Box maxW="6xl" mx="auto" >
+        <Box maxW="6xl" mx="auto">
           <Grid templateColumns={["1fr", "1fr", "1fr"]}>
-            <Stack spacing={32} >
+            <Stack spacing={32}>
               <Box as="section">
                 <LazyLoad once offset={100}>
                   <Projects projects={projects.slice(0, 6)} />
