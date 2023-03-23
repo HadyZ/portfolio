@@ -39,16 +39,7 @@ const projects: FC<Props> = ({
     );
   };
 
-  const headingNode = () => {
-    return (
-      <Box pb={4} d="flex" justifyContent="space-between" alignItems="center">
-        <Heading as="h2" size="xl" marginTop="2rem">
-          Projects
-        </Heading>
-        {viewAllLinksNode()}
-      </Box>
-    );
-  };
+  const headingNode = () => {};
 
   const titleNode = (title: string) => {
     return (
