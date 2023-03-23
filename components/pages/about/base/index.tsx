@@ -47,11 +47,8 @@ const Page: FC = () => {
   const bioDescriptionNode = () => {
     return (
       <Box className="article">
-        <Text fontWeight="bold">
-          Computer And Communication Engineer, having more than 3 years in
-          frontend web development, with an eye for detail.
-        </Text>
-        <Text>
+        <Text fontWeight="bold">Business and Software Developer</Text>
+        {/* <Text>
           I'm also a big fan of{" "}
           <Box as="span" fontWeight="bold">
             Java Script
@@ -61,13 +58,22 @@ const Page: FC = () => {
             around 3 years
           </Box>{" "}
           experience with it. I'm eager to learn new frameworks.
-        </Text>
+        </Text> */}
         <Text>
-          Though I spend most of my time writing code for building User
-          Interfaces, I've also fiddled with many Back-end technologies. I like
-          enjoying working in the intersection of design and development. I feel
-          most productive when I'm able to design User Interfaces which not only
-          look good but has a good performance as well.
+          As a website builder, I have always been fascinated by the limitless
+          possibilities that the digital space offers. With a passion for
+          technology and design, I have honed my skills in web development,
+          constantly seeking to improve my craft and stay on top of the latest
+          trends and innovations. Whether it's designing sleek and user-friendly
+          interfaces, writing clean and efficient code, or implementing SEO best
+          practices, I take pride in delivering high-quality websites that not
+          only look great but also perform exceptionally well. With an eye for
+          detail and a commitment to excellence, I strive to create websites
+          that not only meet my clients' needs but also exceed their
+          expectations. Whether you're looking to build a small business website
+          or a large-scale e-commerce platform, I am confident in my ability to
+          deliver a website that will leave a lasting impression on your
+          audience.
         </Text>
       </Box>
     );
