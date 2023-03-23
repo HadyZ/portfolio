@@ -19,10 +19,10 @@ interface NavLink {
 }
 
 const LINKS = [
-  {
-    url: "/projects",
-    title: "Projects",
-  },
+  // {
+  //   url: "/projects",
+  //   title: "Projects",
+  // },
   {
     url: "/about",
     title: "About",

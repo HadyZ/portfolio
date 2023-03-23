@@ -28,15 +28,14 @@ const projects: FC<Props> = ({
     if (hideViewAllLinksNode) return false;
 
     return (
-      <></>
-      // <Link href="/projects">
-      //   <_Link p={2} href="/projects" rounded="md">
-      //     <Stack spacing={2} isInline alignItems="center" marginTop="2rem">
-      //       <Box fontWeight="bold">View all projects</Box>
-      //       <Box as={IoMdArrowRoundForward} size="15px" />
-      //     </Stack>
-      //   </_Link>
-      // </Link>
+      <Link href="/projects">
+        <_Link p={2} href="/projects" rounded="md">
+          <Stack spacing={2} isInline alignItems="center" marginTop="2rem">
+            <Box fontWeight="bold">View all projects</Box>
+            <Box as={IoMdArrowRoundForward} size="15px" />
+          </Stack>
+        </_Link>
+      </Link>
     );
   };
 
