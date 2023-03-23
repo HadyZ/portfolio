@@ -6,9 +6,21 @@
     "demoUrl": "https://github.com/HadyZ/Spotify-React"
   },
   {
-    "title": "Spotify-React App",
-    "description": "An Spotify search box built with and for React",
-    "url": "https://github.com/HadyZ/Spotify-React",
-    "demoUrl": "https://github.com/HadyZ/Spotify-React"
+    "title": "LAX PAXAssist for Travelers",
+    "description": "(PAXAssist for Travelers) which is the customer-facing application installed on Kiosks at LAX. It uses a series supporting services each with a different purpose.",
+    "url": "https://lax-prod.itxi.aero/",
+    "demoUrl": "https://lax-prod.itxi.aero/"
+  },
+  {
+    "title": "LaGuardia Airport platform (LGA)",
+    "description": "LGA is the customer-facing application installed on Kiosks at LGA. It uses a series supporting services each with a different purpose.",
+    "url": "https://lga-prod.itxi.aero/",
+    "demoUrl": "https://lga-prod.itxi.aero/"
+  },
+  {
+    "title": "NEOM",
+    "description": "NEOM is the customer-facing application installed on Kiosks at NEOM airport. It uses a series supporting services each with a different purpose.",
+    "url": "https://neom.itxi.aero/",
+    "demoUrl": "https://neom.itxi.aero/"
   }
 ]
