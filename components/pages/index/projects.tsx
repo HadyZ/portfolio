@@ -66,6 +66,7 @@ const projects: FC<Props> = ({
               p={8}
               rounded="md"
               shadow="md"
+              mt={index == 0 ? 8 : 0}
             >
               <a href={project.url} target="_blank" rel="noopener">
                 <Stack spacing={4}>

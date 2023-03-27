@@ -18,7 +18,7 @@ const SocialLinks: FC = () => {
     <Box
       bg={sectionBgColor[colorMode]}
       color={sectionColor[colorMode]}
-      p={4}
+      p={8}
       as="footer"
     >
       <Box maxW="6xl" mx="auto" fontSize="xs">
