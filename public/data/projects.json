@@ -1,12 +1,12 @@
 [
   {
-    "title": "LAX PAXAssist for Travelers",
+    "title": "LAX PAXAssist for Travelers (3840 x 2160)",
     "description": "(PAXAssist for Travelers) which is the customer-facing application installed on Kiosks at LAX. It uses a series supporting services each with a different purpose.",
     "url": "https://lax-prod.itxi.aero/",
     "demoUrl": "https://lax-prod.itxi.aero/"
   },
   {
-    "title": "LaGuardia Airport platform (LGA)",
+    "title": "LaGuardia Airport platform (LGA) (5400 x 1920)",
     "description": "LGA is the customer-facing application installed on Kiosks at LGA. It uses a series supporting services each with a different purpose.",
     "url": "https://lga-prod.itxi.aero/",
     "demoUrl": "https://lga-prod.itxi.aero/"
@@ -16,5 +16,17 @@
     "description": "NEOM is the customer-facing application installed on Kiosks at NEOM airport. It uses a series supporting services each with a different purpose.",
     "url": "https://neom.itxi.aero/",
     "demoUrl": "https://neom.itxi.aero/"
+  },
+  {
+    "title": "Digital Twin",
+    "description": "The digital Twin App creates a virtual real time representation of an airport, and its activities. In addition, the Virtual airport environment allows locating and managing important notifications, incidents, devices statuses…",
+    "url": "https://qa-digitaltwin.itxi.aero/login",
+    "demoUrl": "https://qa-digitaltwin.itxi.aero/login"
+  },
+  {
+    "title": "ELP (2160 x 3840)",
+    "description": "El Paso PAXAssist is a kiosk application to help the airport's visitors navigate throughout the airport and find their points of interests (PoI)s with ease.",
+    "url": "https://elp.itxi.aero/kiosk",
+    "demoUrl": "https://elp.itxi.aero/kiosk"
   }
 ]
