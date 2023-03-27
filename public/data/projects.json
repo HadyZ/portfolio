@@ -1,11 +1,5 @@
 [
   {
-    "title": "Spotify-React App",
-    "description": "An Spotify search box built with and for React",
-    "url": "https://github.com/HadyZ/Spotify-React",
-    "demoUrl": "https://github.com/HadyZ/Spotify-React"
-  },
-  {
     "title": "LAX PAXAssist for Travelers",
     "description": "(PAXAssist for Travelers) which is the customer-facing application installed on Kiosks at LAX. It uses a series supporting services each with a different purpose.",
     "url": "https://lax-prod.itxi.aero/",
